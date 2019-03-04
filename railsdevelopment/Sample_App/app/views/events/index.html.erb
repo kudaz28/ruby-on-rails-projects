@@ -1,0 +1,31 @@
+<article id="events">
+
+<% # For each event generate a title, date, and description %>
+<% @events.each do |event| %>
+  <section>
+    <h1> <%= event.title %> </h1>
+    <h2> Date of event: <%= event.date %></h2>
+
+    <p>
+      <%= event.description %>
+    </p>
+
+    <% # Only show the Show, Edit and Destroy options if a user is signed in %>
+  <% if member_signed_in? %>
+      <p>
+        <%= link_to 'Show', event %> |
+        <%= link_to 'Edit', edit_event_path(event) %>
+        <%= link_to 'Destroy', event, confirm: 'Are you sure?', method: :delete %>
+      </p>
+    <% end %>
+  </section>
+<% end %>
+
+<% # Only a signed in user can create an event %>
+<% if member_signed_in? %>
+    <section>
+      <%= link_to 'New Event', new_event_path %>
+    </section>
+<% end %>
+
+</article>

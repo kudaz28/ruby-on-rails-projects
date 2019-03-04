@@ -1,0 +1,26 @@
+<article id="newsletter">
+  
+  <h1><%= "Club Newsletters #{Time.now.year}" %></h1>
+<% @newsletters.each do |newsletter| %>
+
+  <section id="newsletters_details">
+    <h2><%= newsletter.title %> &nbsp; &nbsp; <%= newsletter.date %> &nbsp;
+   
+    <%= link_to 'Download Newsletter', newsletter.file_url, class: "btn btn-primary" %></h2>
+    <% if member_signed_in? %>
+      <p>
+        <%= link_to 'Show', newsletter %> |
+        <%= link_to 'Edit ', edit_newsletter_path(newsletter) %>
+        <%= button_to 'Delete', newsletter, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{newsletter.title}?"%>
+      </p>
+    <% end %>
+  </section>
+  <% end %>
+
+  <% if member_signed_in? %>
+    <section>
+      <%= link_to 'New Newsletter', new_newsletter_path, class: "btn btn-primary" %>
+    </section> 
+  <% end %> 
+
+</article> 

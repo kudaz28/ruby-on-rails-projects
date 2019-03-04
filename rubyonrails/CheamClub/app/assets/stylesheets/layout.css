@@ -1,0 +1,600 @@
+/* layout.css
+*
+* Basic styling for the static pages
+*
+*/
+
+@import "site-branding"; 
+@import "bootstrap";
+
+div#container
+{
+	display: block;
+	position: relative;
+	min-height:3000px;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 5px;
+	background-color: #F1F1F1;
+  margin-top: 0px; 
+}
+
+article#eventspage
+{
+ 	padding-left: 20px;
+ 	padding-right: 20px; 
+  margin-left: 200px;
+  margin-right: 200px;
+ 	color:#000000;
+  font-family: "Lucida Sans Unicode";
+  font-weight: lighter;
+}
+
+
+article#eventspage h1
+{
+	padding: 5px; 5px;
+  font-size: 1.3em;
+  background-color:#f37735; 
+  color: #000000; 
+ 	border-radius: 1px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0px;
+  text-align:center;
+}
+
+article#eventspage h2
+{
+	 font-size: 1.3em;
+   background-color:#D6D6D6;
+   border-style: solid;
+    border-width: 2px;
+    border-color: #E59400;
+   border-radius: 3px;
+   padding: 15px 30px ;
+   padding: 10px 10px 10px 10px;
+}
+
+article#eventspage p
+{
+ 	font-size: 1em;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #B27300;
+  background-color: #FFFFFF;
+  text-align: left;
+  margin: 10px 10px 10px 0;
+  padding: 10px 10px 10px 10px;
+}
+
+article#newsletter h1
+{
+	padding: 5px; 5px;
+  font-size: 1.3em;
+  background-color:#999999;  
+  color: #000000; 
+ 	border-radius: 1px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0px;
+  text-align:center;
+}
+
+article#newsletter
+{
+  padding-left: 20px;
+ 	padding-right: 20px; 
+  margin-left: 200px;
+  margin-right: 200px;
+ 	color:#000000;
+  font-family: "Lucida Sans Unicode";
+  font-weight: lighter;
+}
+
+article#newsletter p
+{
+ 	font-size: 1em;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #E59400;
+  background-color: #FFFFFF;
+  text-align: left;
+  margin: 10px 10px 10px 0;
+  padding: 10px 10px 10px 10px;
+}
+
+article#newsletter h2
+{
+  font-size: 1.1em;
+   background-color:#F7F7F7;
+   border-style: solid;
+    border-width: 2px;
+    border-color: #B27300;
+   border-radius: 3px;
+   padding: 15px 30px ;
+   padding: 10px 10px 10px 10px;
+}
+
+header#page_header
+{
+	background-color: #4c4c4c;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 10px; 10px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1em;
+  font-weight: lighter;
+  border-radius: 2px;
+  margin-bottom: 0px;
+}
+
+header#page_header h1 
+{
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 2em;
+  font-weight:lighter;
+} 
+
+header#page_header h2
+{
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 1.5em;
+  font-weight:lighter;
+} 
+
+header#page_header img 		
+{ 
+  float:left; margin:5 10px 0 0;  width:90px; height: 90px ; padding: 10px; 15px; 
+}
+
+nav#utility 
+{
+	float: right;
+	font-family: "Segoe IU", "Myriad Pro","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 1.2em;  
+  color: #FFFFFF;
+}
+
+nav#utility li a
+{
+ padding: 5px 5px; font-family:"Lucida Sans Unicode"; text-align: center; background-color:#FFFFFF; border-radius: 1px; 
+  color: #FFFFFF;
+}
+
+nav#main_nav { }
+
+nav#main_nav a:link { color:white; text-decoration: none;}
+nav#main_nav a:visited	{ color:white; text-decoration: none;}
+nav#main_nav a:active	{ color: #ffffff; background:#f1d74c;}
+nav#main_nav a:hover		{ color:white; background-color:#E59400; border-radius: 2px; }
+
+nav#main_nav ul 	{ text-align: center;  background-color:#386C99; border-radius: 2px }
+nav#main_nav  ul li 		{ display:inline-block ; padding:2px; font-size: 1.1em; font-weight:lighter;}
+nav#main_nav  ul li a 	{ float:left; padding: 5px 5px; font-family:"Lucida Sans Unicode"; text-align: center;}
+
+section#leftpanel
+{	
+    float: left;
+    margin : 40px;
+    width: 400px;
+	  font-family:  "Berlingske Serif";
+	  font-size: 15px;
+}
+
+section#leftpanel h1 
+{
+	text-align: center;
+	color: #000000;
+	padding: 5px; 5px;
+	font-family: "Berlingske Serif", "Myriad Pro","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color:#EB6841; 
+ 	border-radius: 2px;
+}
+
+section#leftpanel p
+{
+  font-size: 1.3em;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  margin: 20px;
+  padding : 10px;
+}
+
+section#centralpanel
+{
+	width:600px;
+	font-family:  "Berlingske Serif";
+	font-size: 15px;
+  margin: 40px;;
+  float :right;
+}
+
+
+section#centralpanel ul 	{ text-align: center;  background-color:#EE8000; border-radius: 2px; margin-left: 20px; margin-right: 20px; }
+section#centralpanel ul li 		{ display: block ; padding:2px; font-size: 1em; font-weight:lighter;  }
+section#centralpanel ul li a 	{ padding: 5px 5px; font-family: "Lucida Sans"; text-align: center;}
+
+section#centralpanel a:link { color:white; text-decoration: none;}
+section#centralpanel a:visited	{ color:white; text-decoration: none;}
+section#centralpanel a:active	{ color: #000000; background:#f1d74c;}
+section#centralpanel a:hover		{ color:white; background-color:#5f3300; border-radius: 2px; }
+
+section#centralpanel h1 
+{
+	text-align: center;
+	color: #000000;
+	padding: 5px; 5px;
+	font-family: "Berlingske Serif", "Myriad Pro","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color:#38BB38; 
+ 	border-radius: 2px;
+} 
+
+section#centralpanel h2
+{
+	text-align: center;
+	color: #000000;
+	padding: 5px; 5px;
+	font-family: "Berlingske Serif", "Myriad Pro","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color:#38BB38; 
+ 	border-radius: 2px;
+} 
+
+section#centralpanel p
+{
+  font-size: 1.3em;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  margin: 20px;
+  padding : 10px;
+}
+
+section#sites  h1
+{
+  text-align: center;
+	color: #000000;
+	padding: 5px; 5px;
+	font-family: "Lucida Sans";
+  font-size: 1.3em;
+  font-weight: lighter;
+  background-color:#38BB38; 
+ 	border-radius: 2px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+section#sites li 
+{
+  font-family:"Berlingske Serif";
+  text-align: center;
+  font-size: 1.2em;  
+  font-weight: lighter;
+}
+
+section#sites ul 	{ text-align: center;  background-color:#EE8000; border-radius: 2px; margin-left: 200px; margin-right: 200px; }
+section#sites ul li 		{ display: block ; padding:2px; font-size: 1em; font-weight:lighter;  }
+section#sites ul li a 	{ padding: 5px 5px; font-family: "Lucida Sans"; text-align: center;}
+
+section#sites a:link { color:white; text-decoration: none;}
+section#sites a:visited	{ color:white; text-decoration: none;}
+section#sites a:active	{ color: #000000; background:#f1d74c;}
+section#sites a:hover		{ color:white; background-color:#5f3300; border-radius: 2px; }
+
+section#center 
+{
+  width: 250px;
+  margin-left: 20px;
+	padding: 10px;
+	font-family:  "Berlingske Serif";
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+}
+
+section#events
+{
+	font-family: "Lucida Sans Unicode";
+  border-radius: 1px;
+  margin : 15px;
+  font-size: 20px;
+}
+
+section#aboutcheamheading h1
+{
+  text-align: center;
+	color: #000000;
+	padding: 5px; 5px;
+	font-family: "Lucida Sans";
+  font-size: 1.3em;
+  font-weight: lighter;
+  background-color:#38BB38; 
+ 	border-radius: 2px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+article#aboutcheam
+{
+  text-align: center;
+  font-family: "Berlingske Serif";
+  font-weight: lighter;
+  /*
+  text-align: center;
+	color: #000000;
+	padding: 5px; 5px;
+	font-family: "Myriad";
+  font-size: 1.3em;
+  font-weight: lighter;
+  background-color:#38BB38; 
+ 	border-radius: 2px;*/
+}
+
+article#aboutcheam h2
+{
+  font-weight: lighter;
+	color: #000000;
+	padding: 5px; 5px;
+  font-size: 1.4em;
+  border-radius: 2px;
+  background-color:#EB6841; 
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+section#aboutcheamleft
+{
+  width: 500px;
+  float : left;
+  margin-left : 60px;
+}
+
+
+
+section#aboutcheamright
+{
+  width: 500px;
+  float : right;
+  margin-right : 60px;
+  
+}
+
+
+
+section#aboutcheam p
+{
+  text-align:center;
+  float: center;
+ 
+  font-size: 1.3em;
+  border-radius: 5px;
+  margin: 20px;
+  padding : 10px;
+  
+}
+
+section#aboutsidebar p
+{
+  float : right;
+  width: 400px;
+  
+  font-size: 16px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  margin: 30px;
+  padding : 10px;
+}
+
+section#whatyouneed
+{
+  text-align: center;
+}
+section#whatyouneed h1
+{
+  text-align: center;
+	color: #000000;
+	padding: 5px; 5px;
+	font-family: "";
+  font-size: 1.4em;
+  font-weight: lighter;
+  background-color:#38BB38; 
+ 	border-radius: 2px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+section#whatyouneed p
+{
+  font-family: "Berlingske Serif";
+  font-size: 1.3em;
+  border-radius: 1px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #386C99; 
+  margin-left: 200px;
+  margin-right: 200px;
+  padding : 20px;
+}
+
+section#whatyouneed h1
+{
+  font-family: "Lucida Sans";
+  font-weight: lighter;
+  text-align: center;
+}
+
+
+section#join
+{
+  text-align: center;
+}
+
+section#join p
+{
+  font-family: "Berlingske Serif";
+  font-size: 1.3em;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #386C99; 
+  margin-left: 200px;
+  margin-right: 200px;
+  padding : 20px;
+}
+
+section#join h1
+{
+  text-align: center;
+	color: #000000;
+	padding: 5px; 5px;
+	font-family: "Lucida Sans";
+  font-size: 1.4em;
+  font-weight: lighter;
+  background-color:#38BB38; 
+ 	border-radius: 2px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+section#directions p
+{
+   text-align: center;
+   font-family: "Berlingske Serif";
+  
+   
+  font-size: 1.3em;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #386C99; 
+  margin-left: 200px;
+  margin-right: 200px;
+  padding : 20px;
+}
+
+section#directions img
+{
+  float:center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #386C99;
+  margin-left : 400px;
+}
+
+section#directions h1
+{
+  font-family: "Lucida Sans";
+  font-size: 1.4em;
+   font-weight: lighter;
+  background-color:#38BB38; 
+ 	border-radius: 2px;
+  margin-left: 300px;
+  margin-right: 300px;
+  	color: #000000;
+	padding: 5px; 5px;
+  text-align: center;
+  
+}
+
+section#matters h1
+{
+  font-family: "Lucida Sans";
+  font-size: 1.4em;
+   font-weight: lighter;
+  background-color:#38BB38; 
+ 	border-radius: 2px;
+  margin-left: 300px;
+  margin-right: 300px;
+  	color: #000000;
+	padding: 5px; 5px;
+  text-align: center;
+  
+}
+
+section#matters p
+{
+   text-align: center;
+   font-family: "Berlingske Serif";
+  
+   
+  font-size: 1.3em;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #386C99; 
+  margin-left: 200px;
+  margin-right: 200px;
+  padding : 20px;
+}
+
+section#directions h2
+{
+  font-weight: lighter;
+	color: #000000;
+  text-align:center;
+	padding: 5px; 5px;
+  font-size: 1.4em;
+  font-family: "Berlingske Serif";
+  border-radius: 2px;
+  background-color:#EB6841; 
+  margin-left: 370px;
+  margin-right: 370px;
+}
+
+section#booking h1
+{
+  text-align: center;
+	color: #000000;
+	padding: 5px; 5px;
+	font-family: "Lucida Sans";
+  font-size: 1.3em;
+  font-weight: lighter;
+  background-color:#38BB38; 
+ 	border-radius: 2px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+section#booking p
+{
+text-align: center;
+   font-family: "Berlingske Serif";
+  
+   
+  font-size: 1.3em;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #386C99; 
+  margin-left: 200px;
+  margin-right: 200px;
+  padding : 20px;
+}
+footer
+{
+	clear:both; background-color:#000000; 
+	font-family: "Berlingske Serif";
+	font-size: 12px;
+	padding: 3px;
+	text-align: center;
+  border-radius: 2px;
+  margin:10px;
+}
+
+footer p 			{ text-align:center; color:#FFFFFF;}

@@ -1,0 +1,16 @@
+<header id="page_header" role="banner"> 
+  
+  <nav id="sign_in">
+    <% if member_signed_in? %>
+      Signed in as <%= current_member.email %>
+      <%= link_to "Sign Out", destroy_member_session_path, :method => :delete %>
+    <% else %>
+    <%= link_to "Sign Up", new_member_registration_path %> or
+    <%= link_to "Sign In", new_member_session_path %>
+    <% end %>
+  </nav>
+  
+  <h1>William Zhou Project</h1>
+  <h2>Healthy Eating and Exercise preserve's Life Balance</h2>
+  
+</header>

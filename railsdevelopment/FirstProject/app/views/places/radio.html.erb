@@ -1,0 +1,24 @@
+<h1>Strangest Places</h1>
+<p>I'm on the radio</p>
+
+<p>
+	They take me from</br>
+	<%= link_to "The Strangest places ", :action => "video" %>
+</p>
+
+<p>
+	The time is now:
+	<%= @time %>
+</p>
+
+<p>
+	In one hour's time will be:
+	<%= 1.hour.from_now %>
+</p>
+
+<% for i in 2..4 %>
+	<p>
+	In <%= i %> hours' time it will be:
+	<%= i.hour.from_now %>
+	</p>
+<% end %>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<% # For everything in the flash system, ouput a paragraph with a value %>
+
+<% flash.each do | key, value | %>
+	<p> <%= value %> </p>
+<% end %>
+
+<% #Take any output from controllers and emded it here %>
+<%= yield %>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+/* layout.css
+*
+* Basic styling for the static pages
+*
+*/
+/*
+@import "site-branding";
+@import "popout"*/
+
+div#container
+{
+	display: block;
+	position: relative;
+	min-height: 1000px;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #fafafa;
+}
+
+header#page_header
+{
+	background-color: "Myriad Pro","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align: center;
+	color: $white;
+	padding: 10px; 15px;
+	font-family: "Myriad Pro","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: 10px;
+  border-radius: 5px
+}
+
+nav#utility
+{
+	float: right;
+	font-size: 1em;
+	font-family: "Myriad Pro","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 1em;  
+}
+
+/*nav#main_nav 
+{
+	a, a:link, a:visited {color:white; text-decoration: none;}
+	a:hover { color:white; background-color:#000000; border-radius: 5px; }
+
+	ul { text-align: center; margin-bottom:10px; margin-top:10px; background-color:#545454; border-radius: 5px }
+	ul li 		{ display:inline-block ; margin: 0 2px; padding:4px 4px; font-size: 1.1em;}
+	ul li a 	{ float:left; padding: 10px 10px; font-family:"Lucida Sans Unicode"; text-align: center;}
+}*/
+
+nav#main_nav a:link { color:white; }
+nav#main_nav a:visited	{ color:white; }
+nav#main_nav a:active	{ color:white; }
+nav#main_nav a:hover		{ color:white; background-color:#000000; border-radius: 5px; }
+
+nav#main_nav ul 	{ text-align: center; margin-bottom:10px; margin-top:10px; background-color:#545454; border-radius: 5px }
+nav#main_nav  ul li 		{ display:inline-block ; margin: 0 2px; padding:4px 4px; font-size: 1.1em;}
+nav#main_nav  ul li a 	{ float:left; padding: 10px 10px; font-family:"Lucida Sans Unicode"; text-align: center;}
+
+
+section#main
+{
+	float: left;
+	width: 700px;
+	padding: 0 15px;
+	font-family: "Berlingske Serif";
+	font-size: 20px;
+}
+
+section#sidebar
+{
+	margin-left: 700px;
+	padding: 10px;
+	font-family: "Berlingske Serif";
+	font-size: 20px;
+}
+
+footer
+{
+	clear: left;
+	font-family: "Berlingske Serif";
+	font-size: 20px;
+	padding: 10px;
+	text-align: center;
+}
