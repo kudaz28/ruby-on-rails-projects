@@ -1,0 +1,2 @@
+module CheamClubCoreHelper
+end

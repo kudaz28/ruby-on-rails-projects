@@ -1,0 +1,30 @@
+<article id="eventspage">
+  
+  <h1><%= "Club Calendar #{Time.now.year}" %></h1>
+
+
+  <% @events.each do |event| %>
+
+  <section>
+    <h2><%= event.title %> <br><br> Date of event: <%= event.date %> <br><br>
+    <p>
+      <%= event.description %>
+    </p> 
+    </h2>
+    
+    <% if member_signed_in? %>
+    <p>
+        <%= link_to 'Show', event %> |
+        <%= link_to 'Edit', edit_event_path(event) %>
+        <%= button_to 'Destroy', event, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{event.title}?"%>
+    </p>
+    <% end %>
+  </section>
+  <% end %>
+
+  <% if member_signed_in? %>
+    <section>
+      <%= link_to 'New Event', new_event_path, class: "btn btn-primary" %>
+    </section> 
+  <% end %> 
+</article>
